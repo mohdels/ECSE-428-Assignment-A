@@ -23,3 +23,9 @@ Feature: Sign in to existing account
     And clicks the sign in button
     Then an error message should be displayed indicating the email address is not registered
     And the user should remain on the sign in page
+    
+  Scenario: Missing email and/or password fields
+    Given the user is on the sign in page
+    When the user leaves the email and/or password fields blank
+    And clicks on the sign in button
+    Then an error message should appear indicating that the missing fields must be filled in
