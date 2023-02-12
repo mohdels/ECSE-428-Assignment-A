@@ -28,7 +28,7 @@ Feature: Delete User Accounts
     And the admin navigates to the user management page
     And the selected user has multiple associated resources, such as pending ads.
     When the admin selects the user and clicks the delete button
-    Then a prompt should be displayed warning the administrator about the pending ...
+    Then a prompt should be displayed warning the admin about the pending ads
     And the admin should be given the option to either delete the pending ads and the account or keep the account undeleted
     And the selected user's account should be deleted
     And a confirmation message should be displayed to confirm that the account has been deleted
