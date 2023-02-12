@@ -1,5 +1,5 @@
 Feature: Create Account
-  As a Buyer/Seller
+  As a user
   I want to be able to create an account on the website
   so that I can buy/sell/trade used textbooks.
 

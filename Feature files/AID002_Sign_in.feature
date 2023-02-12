@@ -1,5 +1,5 @@
 Feature: Sign in to existing account
-  As a Buyer/Seller/Admin
+  As a user
   I want to be able to sign into my existing account
   so that I can access my account information and/or .
 
