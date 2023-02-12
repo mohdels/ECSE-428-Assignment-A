@@ -1,5 +1,7 @@
 Feature: Reset password
-  As a user, I want to be able to reset my password if I have forgotten it, so that I can access my account again.
+  As a user 
+  I want to be able to reset my password if I have forgotten it 
+  so that I can access my account again.
 
   Scenario: Successful password reset
     Given the user is on the password reset page
