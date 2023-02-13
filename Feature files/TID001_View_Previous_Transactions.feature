@@ -1,7 +1,7 @@
 Feature: View previous transactions
   As a buyer/seller
   I want to be able to view my previous transactions
-  So that I can keep track of my previous purchases/salesssssss
+  So that I can keep track of my previous purchases/sales
 
   Scenario: View previous transactions successfully
     Given the user is on the transactions page
