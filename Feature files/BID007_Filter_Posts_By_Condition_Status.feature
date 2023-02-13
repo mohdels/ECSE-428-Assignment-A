@@ -1,6 +1,6 @@
 Feature: Filter Posts by Condition Status
 
-  As a user,
+  As a user
   I want to be able to filter used textbook posts by condition status,
   so that I can easily find textbooks in the condition I am looking for.
 
